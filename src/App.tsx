@@ -1,9 +1,10 @@
 //import { useState } from "react";
+import Navbar from "@/pages/navbar"
 
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl text-center">app</h1>
+    <div className="app bg-gray-20">
+      <Navbar/>      
     </div>
   );
 }
