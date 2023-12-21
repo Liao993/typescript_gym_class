@@ -1,17 +1,18 @@
 //import { useState } from "react";
-import Navbar from "@/pages/navbar"
-import Home from "@/pages/home"
+import Navbar from "@/scenes/navbar"
+import Homes from "@/scenes/home"
+import Benefits from "./scenes/benefits";
 import { SelectedPage } from "@/shared/types";
 import { useState, useEffect } from "react";
 
 function App() {
-  const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
+  const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Homes);
   const [isTopPage, setIsTopPage] = useState<boolean>(true)
 
   function handleScroll():void{
     if(window.scrollY === 0){
       setIsTopPage(true)
-      setSelectedPage(SelectedPage.Home)
+      setSelectedPage(SelectedPage.Homes)
     } else {
       setIsTopPage(false)
     }
@@ -22,7 +23,8 @@ function App() {
   return (
     <div className="app bg-gray-20">
       <Navbar isTopPage = {isTopPage} selectedPage={selectedPage} setSelectedPage={setSelectedPage}/> 
-      <Home/>     
+      <Homes setSelectedPage={setSelectedPage}/>   
+      <Benefits setSelectedPage={setSelectedPage}/> 
     </div>
   );
 }
