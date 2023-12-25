@@ -1,8 +1,10 @@
 //import { useState } from "react";
 import Navbar from "@/scenes/navbar"
 import Homes from "@/scenes/home"
-import Benefits from "./scenes/benefits";
-import OurClasses from "./scenes/ourclasses";
+import Benefits from "@/scenes/benefits";
+import OurClasses from "@/scenes/ourclasses";
+import ContactUs from "@/scenes/contactus";
+import Footer from "@/layouts/Footer"
 import { SelectedPage } from "@/shared/types";
 import { useState, useEffect } from "react";
 
@@ -28,6 +30,8 @@ function App() {
       <Homes setSelectedPage={setSelectedPage}/>   
       <Benefits setSelectedPage={setSelectedPage}/> 
       <OurClasses/>
+      <ContactUs />
+      <Footer/>
     </div>
   );
 }

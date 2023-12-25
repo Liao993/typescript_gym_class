@@ -47,11 +47,14 @@ const classes: Array<ClassType> = [
 
 const OurClasses = () => {
   return (
-    <section id="ourclasses" className=" w-full bg-primary-100 py-40">
-      <div className="mx-auto my-5 md:w-5/6">
+    <section id="ourclasses" className="w-full bg-primary-100 py-40">
+     
+      <div className="mx-auto w-5/6 my-5">
+        <div className="md:w-3/5">
         <HText>OUR CLASSES</HText>
         <p className="py-5 ">Discover serenity in our yoga classes—mindful postures, expert guidance, and a supportive community await, fostering strength, flexibility, and inner peace.</p>
-      </div>
+        </div>
+     
       <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">
         <ul className="w-[2800px] whitespace-nowrap">
           {classes.map((item: ClassType, index)=> (
@@ -64,6 +67,7 @@ const OurClasses = () => {
           ))}
 
         </ul>
+      </div>
       </div>
     </section>
   )
