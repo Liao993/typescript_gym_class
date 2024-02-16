@@ -1,27 +1,8 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This gymastics webpage project was built with React and Typescript, with Vite for setting up the project. I used Tailwind CSS for layout design. Customers can view the benefits, classess and filled out the form to learn more information!!!
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![Screen Shot 2024-02-16 at 12 33 07 PM](https://github.com/Liao993/typescript_gym_class/assets/73458806/ad1d3930-98b1-4d7e-bb03-92ec7c74406a)
+![Screen Shot 2024-02-16 at 12 33 17 PM](https://github.com/Liao993/typescript_gym_class/assets/73458806/8dbbb16c-4e72-4847-b249-8c357c7e2431)
+![Screen Shot 2024-02-16 at 12 33 26 PM](https://github.com/Liao993/typescript_gym_class/assets/73458806/ad232441-8604-4423-a1c9-99261662b779)
+![Screen Shot 2024-02-16 at 12 33 35 PM](https://github.com/Liao993/typescript_gym_class/assets/73458806/c2754375-a655-480d-9b3a-9af3f466af6b)
